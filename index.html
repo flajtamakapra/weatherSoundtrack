@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<meta charset="utf-8">
+
+<html>
+
+<head>
+
+
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://tonejs.github.io/CDN/latest/Tone.js"></script>
+
+
+</head>
+
+<body>
+
+  <canvas id="cnv1" width="1900" height="1000"></canvas>
+  <canvas id="cnv2" width="1900" height="1000"></canvas>
+
+  <div class="main">
+
+    <div>
+    </div>
+ <script src="animate.js" charset="utf-8"></script>
+<script language="JavaScript">
+
+function maxWindow()
+{
+window.moveTo(0,0);
+
+
+if (document.all)
+{
+  top.window.resizeTo(screen.availWidth,screen.availHeight);
+}
+
+else if (document.layers||document.getElementById)
+{
+  if (top.window.outerHeight<screen.availHeight||top.window.outerWidth<screen.availWidth)
+  {
+    top.window.outerHeight = screen.availHeight;
+    top.window.outerWidth = screen.availWidth;
+  }
+}
+}
+</script>
+
+  </div>
+
+</body>
+
+</html>
